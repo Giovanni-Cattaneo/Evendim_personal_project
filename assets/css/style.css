@@ -1,10 +1,35 @@
 :root{
     --ev-bg-primary: #522f2d;
+    --ev-h-primary: #c9c18c;
+    --ev-header: #292929;
+    --ev-lightest: white;
+    --ev-darkest: black;
 }
 
 *:not(header){
-    background-color: var(--ev-bg-primary);
 }
 
+#site_header{
+    min-height: 50px;
+    
+    .navbar{
+        background-color: var(--ev-header);
 
+        .navbar-brand{
+            color: var(--ev-lightest);
+        }
+    }
 
+}
+
+.sidebar{
+    height: calc(100vh - 60px);
+    background-color: var(--ev-darkest);
+    max-width: 150px;
+    color: var(--ev-lightest);
+}
+
+#site_main{
+    width: 100%;
+    background-color: var(--ev-bg-primary);
+}
