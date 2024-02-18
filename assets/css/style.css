@@ -1,0 +1,10 @@
+:root{
+    --ev-bg-primary: #522f2d;
+}
+
+*:not(header){
+    background-color: var(--ev-bg-primary);
+}
+
+
+
