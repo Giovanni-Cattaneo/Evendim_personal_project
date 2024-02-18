@@ -25,6 +25,7 @@ body{
 
         .navbar-brand{
             color: var(--ev-lightest);
+            font-size: 2.5rem;
         }
     }
 
@@ -43,10 +44,24 @@ body{
     color: var(--ev-lightest);
     flex-direction: column;
 
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .fa-solid{
+        font-size: 1.75rem;
+    }
+
     .top-aside{
         width: 100%;
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
         
         .d-flex{
             transition: background-color 200ms;
@@ -58,8 +73,6 @@ body{
                 background-color: grey;
         }
     }
-
-
 }
 /* #endregion sidebar */
 
