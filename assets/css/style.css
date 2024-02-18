@@ -10,6 +10,7 @@
 
 body{
     overflow-y: hidden;
+    font-family: "Nanum Gothic", sans-serif;
 }
 /* #endregion common */
 
@@ -28,7 +29,7 @@ body{
             font-size: 2.5rem;
             align-items: center;
             flex-wrap: wrap;
-
+            gap: 1.5rem;
         }
     }
 
