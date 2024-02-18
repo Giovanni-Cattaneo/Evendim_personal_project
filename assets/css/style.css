@@ -71,6 +71,7 @@ body{
     background-color: var(--ev-bg-primary);
     overflow-y: auto;
     flex-direction: column;
+    row-gap: 1rem;
 
     .intestation{
         background-color: goldenrod;
