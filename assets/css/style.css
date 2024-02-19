@@ -4,6 +4,8 @@
     --ev-header: #292929;
     --ev-lightest: white;
     --ev-darkest: black;
+    --ev-darker: grey;
+    
 }
 
 /* #region common */
@@ -74,7 +76,7 @@ body{
         }
     
         .d-flex:hover{
-                background-color: grey;
+                background-color: var(--ev-darker);
         }
     }
 }
