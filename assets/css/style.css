@@ -6,6 +6,7 @@
     --ev-darkest: black;
     --ev-darker: grey;
     
+    
 }
 
 /* #region common */
@@ -13,17 +14,11 @@
 body{
     overflow-y: hidden;
     font-family: "Nanum Gothic", sans-serif;
-    p{
-        font-size: 1.1rem;
-        line-height: 2rem;
-    }
+    
     
     a{
         text-decoration: none;
         color: inherit;
-    }
-
-    ul{
     }
 
 }
@@ -107,11 +102,26 @@ body{
 
     .container_text{
         color: var(--ev-lightest);
+
+        > p{
+            font-size: 1.1rem;
+            line-height: 2rem;
+        }
         
     }
 
-    .accordion{
+    .accordion-button{
+        border: 0.1px solid white;
+    }
+
+    #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
+        border-bottom: 0.1px solid white;
+    }
+
+    .accordion-button, #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
         background-color: var(--ev-bg-primary);
+        color: var(--ev-lightest);
+        
     }
 }
 /* #endregion main */
