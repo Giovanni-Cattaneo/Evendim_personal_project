@@ -23,9 +23,6 @@ body{
         color: inherit;
     }
 
-    a:hover{
-        text-decoration: underline;
-    }
     ul{
     }
 
@@ -57,7 +54,11 @@ body{
 
 
 /* #region wrapper */
-
+#wrapper{
+    a:hover{
+        text-decoration: underline;
+    }
+}
 /* #region sidebar */
 .sidebar{
     height: calc(100vh - 50px);
@@ -107,9 +108,10 @@ body{
     .container_text{
         color: var(--ev-lightest);
         
-        .welcome{
-            
-        }
+    }
+
+    .accordion{
+        background-color: var(--ev-bg-primary);
     }
 }
 /* #endregion main */
