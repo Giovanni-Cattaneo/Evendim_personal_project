@@ -17,6 +17,18 @@ body{
         font-size: 1.1rem;
         line-height: 2rem;
     }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    ul{
+    }
+
 }
 /* #endregion common */
 
@@ -53,15 +65,6 @@ body{
     max-width: 150px;
     color: var(--ev-lightest);
     flex-direction: column;
-
-    a{
-        text-decoration: none;
-        color: inherit;
-    }
-
-    a:hover{
-        text-decoration: underline;
-    }
 
     .fa-solid{
         font-size: 1.75rem;
