@@ -115,7 +115,7 @@ body{
     }
 
     #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
-        border-bottom: 0.1px solid white;
+        border: 0.1px solid white;
     }
 
     .accordion-button, #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
