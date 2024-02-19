@@ -112,8 +112,14 @@ body{
 
     .accordion-button{
         border: 0.1px solid white;
+
     }
 
+    .accordion-button:not(.collapsed)::after, .accordion-button.collapsed::after {
+        background-color: white; 
+        border-radius: 0.2rem;
+    }
+    
     #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
         border: 0.1px solid white;
     }
