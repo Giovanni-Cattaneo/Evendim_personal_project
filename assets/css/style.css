@@ -1,40 +1,41 @@
-:root{
+:root {
     --ev-bg-primary: #522f2d;
     --ev-h-primary: #c9c18c;
     --ev-header: #292929;
     --ev-lightest: white;
     --ev-darkest: black;
     --ev-darker: grey;
-    
-    
+
+
 }
 
 /* #region common */
 
-body{
+body {
     overflow-y: hidden;
     font-family: "Nanum Gothic", sans-serif;
-    
-    
-    a{
+
+
+    a {
         text-decoration: none;
         color: inherit;
     }
 
 }
+
 /* #endregion common */
 
 
 /* #region header */
 
 
-#site_header{
+#site_header {
     min-height: 50px;
-    
-    .navbar{
+
+    .navbar {
         background-color: var(--ev-header);
 
-        .navbar-brand{
+        .navbar-brand {
             color: var(--ev-lightest);
             font-size: 2.5rem;
             align-items: center;
@@ -44,18 +45,20 @@ body{
     }
 
 }
+
 /* #endregion header */
 
 
 
 /* #region wrapper */
-#wrapper{
-    a:hover{
+#wrapper {
+    a:hover {
         text-decoration: underline;
     }
 }
+
 /* #region sidebar */
-.sidebar{
+.sidebar {
     height: calc(100vh - 50px);
     background-color: var(--ev-darkest);
     max-width: 150px;
@@ -63,33 +66,34 @@ body{
     flex-direction: column;
     overflow-y: auto;
 
-    .fa-solid{
+    .fa-solid {
         font-size: 1.75rem;
     }
 
-    .top-aside{
+    .top-aside {
         width: 100%;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        
-        .d-flex{
+
+        .d-flex {
             transition: background-color 200ms;
             gap: 0.5rem;
             align-items: center;
         }
-    
-        .d-flex:hover{
-                background-color: var(--ev-darker);
+
+        .d-flex:hover {
+            background-color: var(--ev-darker);
         }
     }
 }
+
 /* #endregion sidebar */
 
 
 /* #region main */
 
-#site_main{
+#site_main {
     width: 100%;
     background-color: var(--ev-bg-primary);
     flex-direction: column;
@@ -97,19 +101,19 @@ body{
     overflow-y: auto;
     max-height: calc(100vh - 50px);
 
-    .intestation{
+    .intestation {
         background-color: var(--ev-h-primary);
     }
 
-    .container_text{
+    .container_text {
         color: var(--ev-lightest);
 
-        > p{
+        >p {
             font-size: 1.1rem;
             line-height: 2rem;
         }
 
-        .list_container{
+        .list_container {
             gap: 10rem;
         }
 
@@ -117,26 +121,37 @@ body{
 
     }
 
-    .accordion-button{
+    .accordion-button {
         border: 0.1px solid white;
 
     }
 
-    .accordion-button:not(.collapsed)::after, .accordion-button.collapsed::after {
-        background-color: white; 
+    .accordion-button:not(.collapsed)::after,
+    .accordion-button.collapsed::after {
+        background-color: white;
         border-radius: 0.2rem;
     }
-    
-    #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
+
+    #flush-collapseOne,
+    #flush-collapseTwo,
+    #flush-collapseThree {
         border: 0.1px solid white;
     }
 
-    .accordion-button, #flush-collapseOne, #flush-collapseTwo, #flush-collapseThree{
+    .accordion-button,
+    #flush-collapseOne,
+    #flush-collapseTwo,
+    #flush-collapseThree,
+    #flush-collapseFive,
+    #flush-collapseSix,
+    #flush-collapseSeven,
+    #flush-collapseEight, #flush-collapseNine {
         background-color: var(--ev-bg-primary);
         color: var(--ev-lightest);
-        
+
     }
 }
+
 /* #endregion main */
 
 /* #endregion wrapper */
