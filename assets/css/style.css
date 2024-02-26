@@ -61,6 +61,7 @@ body{
     max-width: 150px;
     color: var(--ev-lightest);
     flex-direction: column;
+    overflow-y: auto;
 
     .fa-solid{
         font-size: 1.75rem;
