@@ -109,6 +109,12 @@ body{
             line-height: 2rem;
         }
 
+        .list_container{
+            gap: 10rem;
+        }
+
+
+
     }
 
     .accordion-button{
